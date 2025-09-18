@@ -1,0 +1,123 @@
+* {
+  margin: 0; padding: 0; box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: #f5f5f5;
+  color: #333;
+}
+
+/* Navbar */
+header {
+  background: #222;
+  padding: 15px 50px;
+}
+header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header nav .logo {
+  color: #fff;
+}
+header nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+header nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* Hero */
+.hero {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 60px 50px;
+  background: linear-gradient(to right, #4facfe, #00f2fe);
+  color: white;
+}
+.hero-text h1 span {
+  color: yellow;
+}
+.hero-img img {
+  width: 250px;
+  border-radius: 50%;
+  border: 5px solid white;
+}
+.btn {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 10px 20px;
+  background: yellow;
+  color: #222;
+  border-radius: 5px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+/* About */
+.about, .skills, .projects, .contact {
+  padding: 60px 50px;
+  text-align: center;
+}
+.skills ul {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+.skills ul li {
+  background: #222;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+/* Projects */
+.project-grid {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+.project img {
+  width: 250px;
+  height: 180px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+}
+
+/* Contact Form */
+form {
+  max-width: 400px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+form input, form textarea {
+  padding: 10px;
+  border: 1px solid #333;
+  border-radius: 5px;
+}
+form button {
+  padding: 10px;
+  background: #222;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Footer */
+footer {
+  background: #222;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
